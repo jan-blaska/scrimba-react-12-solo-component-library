@@ -1,11 +1,24 @@
 import Menu from "./components/Menu/index"
 import Star from "./components/Star"
+import Badge from "./components/Badge"
 
 function App() {
 
 	return (
 		<>
-			<Menu onOpen={() => console.log("Opened/closed")}>
+			
+
+
+
+
+
+
+			{/* BADGE COMPONENT */}
+			{/*<Badge color="green" variant="pill" size="lg">Hello World!</Badge>*/}
+
+
+			{/* MENU COMPONENT */}
+			{/*<Menu onOpen={() => console.log("Opened/closed")}>
 				<Menu.Button>Menu</Menu.Button>
 				<Menu.Dropdown>
 					<Menu.Item>Home</Menu.Item>
@@ -13,13 +26,11 @@ function App() {
 					<Menu.Item>Contact</Menu.Item>
 					<Menu.Item>Blog</Menu.Item>
 				</Menu.Dropdown>
-			</Menu>
+			</Menu>*/}
 
-			<br />
-			<hr />
-			<br />
 
-			<Star />
+			{/* STAR COMPONENT */}
+			{/*<Star />*/}
 		</>
 	)
 }

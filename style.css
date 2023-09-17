@@ -2,13 +2,32 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-gray: #F3F4F6;
+    --bg-red: #FEE2E2;
+    --bg-yellow: #FEF3C7;
+    --bg-green: #D1FAE5;
+    --bg-blue: #DBEAFE;
+    --bg-indigo: #E0E7FF;
+    --bg-purple: #EDE9FE;
+    --bg-pink: #FCE7F3;
+    --text-gray: #1F2937;
+    --text-red: #991B1B;
+    --text-yellow: #92400E;
+    --text-green: #065F46;
+    --text-blue: #1E40AF;
+    --text-indigo: #3730A3;
+    --text-purple: #5B21B6;
+    --text-pink: #9D174D;
+}
+
 body {
     height: 100vh;
     margin: 0;
     padding: 10px;
     display: flex;
     justify-content: center;
-    font-family: Inter;
+    font-family: 'Karla', sans-serif;
 }
 
 .star {
@@ -118,5 +137,69 @@ button.button-danger {
 
 .box.filled {
     background-color: blue;
+}
+
+/* Badge */
+.badge-sm {
+    padding: 0.15em 0.85em;
+    font-size: 0.875rem; /* 14px */  
+}
+
+.badge-md {
+    padding: 0.15em 0.85em;
+    font-size: 1.25rem; /* 20px */  
+}
+
+.badge-lg {
+    padding: 0.15em 0.85em;
+    font-size: 1.75rem; /* 28px */  
+}
+
+.badge-square {
+    border-radius: 0.3em;
+}
+
+.badge-pill {
+    border-radius: 500px; /* big number to make a pill */
+}
+
+.badge-gray {
+    color: var(--text-gray);
+    background-color: var(--bg-gray);
+}
+
+.badge-red {
+    color: var(--text-red);
+    background-color: var(--bg-red);
+}
+
+.badge-yellow {
+    color: var(--text-yellow);
+    background-color: var(--bg-yellow);
+}
+
+.badge-green {
+    color: var(--text-green);
+    background-color: var(--bg-green);
+}
+
+.badge-blue {
+    color: var(--text-blue);
+    background-color: var(--bg-blue);
+}
+
+.badge-indigo {
+    color: var(--text-indigo);
+    background-color: var(--bg-indigo);
+}
+
+.badge-purple {
+    color: var(--text-purple);
+    background-color: var(--bg-purple);
+}
+
+.badge-pink {
+    color: var(--text-pink);
+    background-color: var(--bg-pink);
 }
 
