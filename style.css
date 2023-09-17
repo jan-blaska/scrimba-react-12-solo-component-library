@@ -1,0 +1,23 @@
+/* -- RESET -- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* -- LAYOUT -- */
+body {
+    font-family: 'Karla', sans-serif;
+    color: #293264;
+    background-color: #1C1C1C;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
