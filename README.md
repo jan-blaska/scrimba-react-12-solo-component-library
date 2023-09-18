@@ -13,7 +13,7 @@
 - Badges
 - Banners
 - Cards
-- Testimonials
+- Testimonial
 
 
 #### External packages are used:
