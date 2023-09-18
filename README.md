@@ -20,3 +20,6 @@
 - Classnames - https://www.npmjs.com/package/classnames
 - React Icons - https://react-icons.github.io/react-icons/
 
+### See the components deployed on the following site:
+[deployed site](https://jan-blaska-scrimba-react-components.netlify.app/)
+
